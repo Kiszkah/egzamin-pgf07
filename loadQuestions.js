@@ -1,6 +1,7 @@
 import { checkAnswers } from "./checkAnswers.js";
 
 let questions = [];
+console.log("qs")
 
 fetch('https://raw.githubusercontent.com/Kiszkah/egzamin-pgf07/main/PGF-07.json')
   .then(response => response.json())

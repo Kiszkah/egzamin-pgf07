@@ -1,4 +1,4 @@
-import {questions} from './loadQuestions.js';
+import { questions } from './loadQuestions.js';
 
 function checkAnswers() {
   const q = document.querySelectorAll('[data-question-index]');
@@ -16,10 +16,14 @@ function checkAnswers() {
           answer.parentElement.classList.add('correct');
         } else {
           answer.parentElement.classList.add('incorrect');
+          answers.forEach((a) => {
+            if (questions[qindex].answers[parseInt(a.dataset.index)].correct) {
+              a.parentElement.classList.add('correct');
+            }
+          });
         }
       }
     });
-
   });
 
   const score = (correctAnswers / totalAnswerCount) * 100;

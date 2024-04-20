@@ -2,7 +2,7 @@ import { checkAnswers } from "./checkAnswers.js";
 
 let questions = [];
 
-fetch('/PGF-07.json')
+fetch('https://raw.githubusercontent.com/Kiszkah/egzamin-pgf07/main/PGF-07.json')
   .then(response => response.json())
   .then(data => {
     questions = getRandomItemsFromArray(data, 40);

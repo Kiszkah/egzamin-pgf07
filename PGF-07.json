@@ -2696,7 +2696,7 @@
                 "correct": true
             }
         ],
-        "table": "<div class=\"_fragment_kodu_\"><pre><table>;  <tr>;    <th>Reklama</th>   <th>Cena za kliknięcie (CPC)</th>  </tr>  <tr>    <td>Reklama A</td>    <td>$0.50</td>  </tr>  <tr>    <td>Reklama B</td>    <td>$0.75</td>  </tr></table></pre></div>",
+        "table": "<div class=\"_fragment_kodu_\"><pre><table>  <tr>    <th>Reklama</th>   <th>Cena za kliknięcie (CPC)</th>  </tr>  <tr>    <td>Reklama A</td>    <td>$0.50</td>  </tr>  <tr>    <td>Reklama B</td>    <td>$0.75</td>  </tr></table></pre></div>",
         "id": 99
     },
     {
@@ -4964,7 +4964,7 @@
                 "correct": true
             }
         ],
-        "table": "<div class=\"_fragment_kodu_\"><pre><div class=\"reklama\">;  <h1>;Nasze produkty</h1>;  <p>;Kup teraz!</p>;</div>;</pre></div>",
+        "table": "<div class=\"_fragment_kodu_\">\r\n<pre>&lt;div class=\"reklama\"&gt;\r\n  &lt;h1&gt;Nasze produkty&lt;\/h1&gt;\r\n  &lt;p&gt;Kup teraz!&lt;\/p&gt;\r\n&lt;\/div&gt;\r\n<\/pre>\r\n<\/div>",
         "id": 183
     },
     {
@@ -5828,7 +5828,7 @@
                 "correct": true
             }
         ],
-        "table": "<div class=\"_fragment_kodu_\"><pre><table>;    <tr>;        <td>;Format</td>;        <td>;Zastosowanie</td>;    </tr>;    <tr>;        <td>;JPEG</td>;        <td>;A</td>;    </tr>;    <tr>;        <td>;PNG</td>;        <td>;B</td>;    </tr>;    <tr>;        <td>;GIF</td>;        <td>;C</td>;    </tr>;    <tr>;        <td>;PSD</td>;        <td>;D</td>;    </tr>;</table>;</pre></div>",
+        "table": "<div class=\"_fragment_kodu_\"><pre><table>    <tr>        <td>Format</td>        <td>Zastosowanie</td>    </tr>    <tr>        <td>JPEG</td>        <td>A</td>    </tr>    <tr>        <td>PNG</td>        <td>B</td>    </tr>    <tr>        <td>GIF</td>        <td>C</td>    </tr>    <tr>        <td>PSD</td>        <td>D</td>    </tr></table></pre></div>",
         "id": 215
     },
     {
@@ -7637,7 +7637,7 @@
                 "correct": true
             }
         ],
-        "table": "<div class=\"_fragment_kodu_\"><pre>Timeline timeline = new Timeline();timeline.getKeyFrames().add(new KeyFrame(Duration.millis(500),     new KeyValue(node.translateXProperty(), 200, Interpolator.EASE_BOTH)));timeline.play();</pre></div>",
+        "table": "<div class=\"_fragment_kodu_\"><pre>Timeline timeline = new Timeline();\ntimeline.getKeyFrames().add(new KeyFrame(Duration.millis(500),\nnew KeyValue(node.translateXProperty(), 200, Interpolator.EASE_BOTH)));\ntimeline.play();</pre></div>",
         "id": 282
     },
     {
@@ -9662,7 +9662,7 @@
                 "correct": true
             }
         ],
-        "table": "<div class=\"_fragment_kodu_\"><pre><table>;  <tr>;    <th>;Platforma</th>;    <th>;Liczba użytkowników (w mln)</th>;  </tr>;  <tr>;    <td>;Facebook</td>;    <td>;2680</td>;  </tr>;  <tr>;    <td>;Instagram</td>;    <td>;1070</td>;  </tr>;  <tr>;    <td>;Twitter</td>;    <td>;330</td>;  </tr>;</table>;</pre></div>",
+        "table": "<div class=\"_fragment_kodu_\"><pre><table>  <tr>    <th>Platforma</th>    <th>Liczba użytkowników (w mln)</th>  </tr>  <tr>    <td>Facebook</td>    <td>2680</td>  </tr>  <tr>    <td>Instagram</td>    <td>1070</td>  </tr>  <tr>    <td>Twitter</td>    <td>330</td>  </tr></table></pre></div>",
         "id": 357
     },
     {

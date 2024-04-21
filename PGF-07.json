@@ -8636,7 +8636,7 @@
                 "correct": true
             }
         ],
-        "table": "<div class=\"_fragment_kodu_\"><pre><video width=\"320\" height=\"240\" controls>;  <source src=\"film.mp4\" type=\"video/mp4\">;  <source src=\"film.ogg\" type=\"video/ogg\">;  Twoja przeglądarka nie obsługuje tagu video.</video>;</pre></div>",
+        "table": "<div class=\"_fragment_kodu_\">\r\n<pre>&lt;video width=\"320\" height=\"240\" controls&gt;\r\n  &lt;source src=\"film.mp4\" type=\"video\/mp4\"&gt;\r\n  &lt;source src=\"film.ogg\" type=\"video\/ogg\"&gt;\r\n  Twoja przegl\u0105darka nie obs\u0142uguje tagu video.\r\n&lt;\/video&gt;\r\n<\/pre>\r\n<\/div>",
         "id": 319
     },
     {
@@ -9797,7 +9797,7 @@
                 "correct": true
             }
         ],
-        "table": "<div class=\"_fragment_kodu_\"><pre>| Sekunda | Akcja                                   ||---------|-----------------------------------------|| 0-5     | Przedstawienie produktu                 || 5-15    | Opis korzyści z używania produktu       || 15-20   | Wzmianka o promocji                     || 20-25   | Informacje o miejscu zakupu             || 25-30   | Powtórzenie nazwy produktu i hasła      |</pre></div>",
+        "table": "<table class=\"tabela_tresc_pytania\">\r\n    <tbody><tr><th>Sekunda<\/th><th>Akcja<\/th><\/tr>\r\n<tr><td>0-5<\/td><td>Przedstawienie produktu<\/td><\/tr>\r\n<tr><td>5-15<\/td><td>Opis korzy\u015Bci z u\u017Cywania produktu<\/td><\/tr>\r\n<tr><td>15-20<\/td><td>Wzmianka o promocji<\/td><\/tr>\r\n<tr><td>20-25<\/td><td>Informacje o miejscu zakupu<\/td><\/tr>\r\n<tr><td>25-30<\/td><td>Powt\u00F3rzenie nazwy produktu i has\u0142a<\/td><\/tr>\r\n<\/tbody>\r\n<\/table>",
         "id": 362
     },
     {

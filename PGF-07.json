@@ -9122,7 +9122,7 @@
                 "correct": true
             }
         ],
-        "table": "<div class=\"_fragment_kodu_\"><pre><table>;  <tr>;    <th>;Nazwa produktu</th>;    <th>;Cena</th>;  </tr>;  <tr>;    <td>;Produkt A</td>;    <td>;100 zł</td>;  </tr>;  <tr>;    <td>;Produkt B</td>;    <td>;200 zł</td>;  </tr>;</table>;</pre></div>",
+        "table": "<div class=\"_fragment_kodu_\">\r\n      <pre>&lt;table&gt;\r\n        &lt;tr&gt;\r\n          &lt;th&gt;Nazwa produktu&lt;\/th&gt;\r\n          &lt;th&gt;Cena&lt;\/th&gt;\r\n        &lt;\/tr&gt;\r\n        &lt;tr&gt;\r\n          &lt;td&gt;Produkt A&lt;\/td&gt;\r\n          &lt;td&gt;100 z\u0142&lt;\/td&gt;\r\n        &lt;\/tr&gt;\r\n        &lt;tr&gt;\r\n          &lt;td&gt;Produkt B&lt;\/td&gt;\r\n          &lt;td&gt;200 z\u0142&lt;\/td&gt;\r\n        &lt;\/tr&gt;\r\n      &lt;\/table&gt;\r\n      <\/pre>\r\n      <\/div>",
         "id": 337
     },
     {

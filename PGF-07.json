@@ -10985,7 +10985,7 @@
                 "correct": true
             }
         ],
-        "table": "<div class=\"_fragment_kodu_\"><pre><form action=\"/subscribe\" method=\"post\">;  <label for=\"email\">;Podaj swój adres e-mail:</label>;  <input type=\"email\" id=\"email\" name=\"email\">;  <input type=\"submit\" value=\"Zapisz się\">;</form>;</pre></div>",
+        "table": "<div class=\"_fragment_kodu_\">\r\n<pre>&lt;form action=\"\/subscribe\" method=\"post\"&gt;\r\n  &lt;label for=\"email\"&gt;Podaj sw\u00F3j adres e-mail:&lt;\/label&gt;\r\n  &lt;input type=\"email\" id=\"email\" name=\"email\"&gt;\r\n  &lt;input type=\"submit\" value=\"Zapisz si\u0119\"&gt;\r\n&lt;\/form&gt;\r\n<\/pre>\r\n<\/div>",
         "id": 406
     },
     {
